@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Documents\\C#\\PRN222\\PRN222\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D619F2F2-77C3-4361-A5D2-DCC3373522D5}|TCP-Client\\TCP-Client.csproj|e:\\documents\\c#\\prn222\\prn222\\tcp-client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D619F2F2-77C3-4361-A5D2-DCC3373522D5}|TCP-Client\\TCP-Client.csproj|solutionrelative:tcp-client\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5411BF44-03E8-4470-ADE1-C7029EADFC7D}|TCP-Server\\TCP-Server.csproj|e:\\documents\\c#\\prn222\\prn222\\tcp-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5411BF44-03E8-4470-ADE1-C7029EADFC7D}|TCP-Server\\TCP-Server.csproj|solutionrelative:tcp-server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\PRN222\\PRN222\\TCP-Server\\Program.cs",
+              "RelativeDocumentMoniker": "TCP-Server\\Program.cs",
+              "ToolTip": "E:\\Documents\\C#\\PRN222\\PRN222\\TCP-Server\\Program.cs",
+              "RelativeToolTip": "TCP-Server\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:36:20.619Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\PRN222\\PRN222\\TCP-Client\\Program.cs",
+              "RelativeDocumentMoniker": "TCP-Client\\Program.cs",
+              "ToolTip": "E:\\Documents\\C#\\PRN222\\PRN222\\TCP-Client\\Program.cs",
+              "RelativeToolTip": "TCP-Client\\Program.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T03:29:03.532Z",
+              "EditorCaption": ""
             }
           ]
         }
