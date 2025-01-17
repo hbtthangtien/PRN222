@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:FetchData"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
+        Title="Using HttpClient"
+        WindowStartupLocation="CenterScreen" 
+        Width="450" Height="350" >
+    <Grid Background="LightBlue">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <StackPanel VerticalAlignment="Stretch"
+                    HorizontalAlignment="Stretch"
+                    Orientation="Vertical">
+            <Label Name="lblUrl" Content="URL"/>
+            <TextBox Name="txtURL" Text="http://www.contoso.com" Height="25"/>
+            <Label Name="lblContent" Content="HTML Source"/>
+        </StackPanel>
+        <TextBox Grid.Row="1" Name="txtContent" TextWrapping="Wrap"
+                 HorizontalScrollBarVisibility="Visible"
+                 AcceptsReturn="True"
+                 VerticalScrollBarVisibility="Visible"/>
+        <StackPanel Grid.Row="2" Orientation="Horizontal"
+                    HorizontalAlignment="Center" VerticalAlignment="Top"
+                    >
+            <Button x:Name="btnViewHTML" Margin="25,5" Width="80"
+                    Content="View HTML" Click="btnViewHTML_Click"/>
+            <Button x:Name="btnClear" Margin="25,5" Width="80"
+                    Content="Clear" Click="btnClear_Click"/>
+            <Button x:Name="btnCloese" Margin="25,5" Width="80"
+                    Content="Close" Click="btnCloese_Click"/>
+        </StackPanel>
     </Grid>
 </Window>

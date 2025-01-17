@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "E:\\Documents\\C#\\PRN222\\PRN222\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{38881C67-931A-4AA3-A214-C82CCD55E632}|FetchData\\FetchData.csproj|e:\\documents\\c#\\prn222\\prn222\\fetchdata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38881C67-931A-4AA3-A214-C82CCD55E632}|FetchData\\FetchData.csproj|solutionrelative:fetchdata\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38881C67-931A-4AA3-A214-C82CCD55E632}|FetchData\\FetchData.csproj|e:\\documents\\c#\\prn222\\prn222\\fetchdata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{38881C67-931A-4AA3-A214-C82CCD55E632}|FetchData\\FetchData.csproj|solutionrelative:fetchdata\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Documents\\C#\\PRN222\\PRN222\\FetchData\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "FetchData\\MainWindow.xaml",
+              "ToolTip": "E:\\Documents\\C#\\PRN222\\PRN222\\FetchData\\MainWindow.xaml",
+              "RelativeToolTip": "FetchData\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-17T04:41:23.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Documents\\C#\\PRN222\\PRN222\\FetchData\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "FetchData\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Documents\\C#\\PRN222\\PRN222\\FetchData\\MainWindow.xaml.cs",
+              "RelativeToolTip": "FetchData\\MainWindow.xaml.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCoAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-17T04:41:22.425Z",
+              "EditorCaption": ""
             }
           ]
         }
